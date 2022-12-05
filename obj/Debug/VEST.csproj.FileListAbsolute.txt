@@ -1,0 +1,14 @@
+D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\bin\Debug\VEST.exe.config
+D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\bin\Debug\VEST.exe
+D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\bin\Debug\VEST.pdb
+D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\bin\Debug\Krypton.Toolkit.dll
+D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\bin\Debug\Krypton.Toolkit.xml
+D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\obj\Debug\VEST.csproj.AssemblyReference.cache
+D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\obj\Debug\VEST.csproj.SuggestedBindingRedirects.cache
+D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\obj\Debug\VEST.csproj.ResolveComReference.cache
+D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\obj\Debug\VEST.Properties.Resources.resources
+D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\obj\Debug\VEST.csproj.GenerateResource.cache
+D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\obj\Debug\VEST.csproj.CoreCompileInputs.cache
+D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\obj\Debug\VEST.csproj.CopyComplete
+D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\obj\Debug\VEST.exe
+D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\obj\Debug\VEST.pdb
