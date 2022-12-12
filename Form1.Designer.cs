@@ -48,9 +48,9 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(64, 78);
+            this.pictureBox1.Location = new System.Drawing.Point(43, 78);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 64);
+            this.pictureBox1.Size = new System.Drawing.Size(128, 128);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -61,8 +61,8 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.SeaGreen;
-            this.label1.Location = new System.Drawing.Point(134, 78);
+            this.label1.ForeColor = System.Drawing.Color.ForestGreen;
+            this.label1.Location = new System.Drawing.Point(162, 78);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(110, 50);
             this.label1.TabIndex = 1;
@@ -75,7 +75,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label2.Location = new System.Drawing.Point(231, 78);
+            this.label2.Location = new System.Drawing.Point(259, 78);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(146, 50);
             this.label2.TabIndex = 2;
@@ -87,12 +87,12 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.SeaGreen;
-            this.label3.Location = new System.Drawing.Point(366, 78);
+            this.label3.ForeColor = System.Drawing.Color.ForestGreen;
+            this.label3.Location = new System.Drawing.Point(394, 78);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 50);
+            this.label3.Size = new System.Drawing.Size(74, 50);
             this.label3.TabIndex = 3;
-            this.label3.Text = "4";
+            this.label3.Text = "4.1";
             this.label3.UseWaitCursor = true;
             // 
             // label4
@@ -114,7 +114,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label5.Location = new System.Drawing.Point(167, 145);
+            this.label5.Location = new System.Drawing.Point(217, 146);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(242, 17);
             this.label5.TabIndex = 5;
@@ -126,12 +126,12 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label6.Location = new System.Drawing.Point(347, 128);
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label6.Location = new System.Drawing.Point(387, 129);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(62, 17);
+            this.label6.Size = new System.Drawing.Size(72, 17);
             this.label6.TabIndex = 6;
-            this.label6.Text = "Version 4";
+            this.label6.Text = "Version 4.1";
             this.label6.UseWaitCursor = true;
             // 
             // label7
@@ -149,16 +149,16 @@
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(143, 178);
+            this.panel1.Location = new System.Drawing.Point(203, 178);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(286, 10);
+            this.panel1.Size = new System.Drawing.Size(256, 10);
             this.panel1.TabIndex = 8;
             this.panel1.UseWaitCursor = true;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Green;
-            this.panel2.Location = new System.Drawing.Point(143, 178);
+            this.panel2.BackColor = System.Drawing.Color.DarkGreen;
+            this.panel2.Location = new System.Drawing.Point(203, 178);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(37, 10);
             this.panel2.TabIndex = 9;
@@ -177,6 +177,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(500, 300);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label7);
@@ -186,7 +187,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.ShowIcon = false;

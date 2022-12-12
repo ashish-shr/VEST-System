@@ -385,7 +385,7 @@
   <data name="kryptonButton3.Values.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        qQAAAKkBq7NRIgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANHSURBVFhH7Zbt
+        qAAAAKgBefSzxgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANHSURBVFhH7Zbt
         S1NhGMb3H2TfgyIIgog+FZRWbp5z1FEmrBFTcw11ajrfps69OOfmhi7ny9ycU8vXUixBIqQkyUQFbTVT
         cb7FEiRSUUOx3Oa8246nxclmX7b0gxdccJ/fzrP74rmfczgUHpLdJL2r6KvI0k8a8x/N+9pavuFzHkOG
         ULxJxS2xTk1awLZlA3/IbrODmFnYRbTbq/8TQH6IAxTGKufNwx9g5esKbKxt+Nyri2v7B7h5kbuFskSA
@@ -589,10 +589,10 @@
   <metadata name="Column31.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Column21.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="Column35.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Column22.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="Column36.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -601,10 +601,10 @@
   <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Column35.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="Column21.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Column36.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="Column22.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -681,6 +681,24 @@
         K5NluIly5SCDwBCjPHNZY2zTflM1oAzwIsQzHoUoCy0XC8uKpAhxysFBAw8aWej7uCpZUW1DVQPKgIkT
         ME5AsjomC94CslBUqGzKwRCjfMXmbN2qqr9AGeAGwl7NcHrFZFnoYmillIMhRjkKjjJ913s1axj45uUU
         SkSi5GmLn/4/h6Z9AOwZ+TJhdHSkAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="kryptonButton11.Values.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAutJREFUWEfd
+        VktoE1EUHWyTUATtjAiiFd37wU2becGktqZIUordxBakWnSlqKgLdSWC4iqIrZ+lbpSCoLjyhxTp2LWV
+        Jt36w8/OgooLJzzPnbkzJplpMh07FD1wyNw399533n1v3o3yT0Br69yoxfULalyfAO814QT5am3JDg7/
+        O6jx5HYknQffIPH9qol8yT5vEfdVjYttnCY8tJj+XI3pk4qSS/BQAOQSakJ/0R7Tn/FAeGA135FolM3A
+        oBjEfmMzPJBEanFRYNMFlRfVGSOq8dRWHnZBMRTLZnj4CaDJMf4T+/wKvzP2c62ISAXYq9Zn8LiCiOfX
+        WkxctV4yIq6AfeLZ9NiEqAVMo/wfnIn5eZpfW/jvBdSUvN4mRC3gDpFNj02IVIDVG0A2PTZhCQWIT1pC
+        P8VmYCDmNAR8ZDM81FjyOhJ9Vlu70opSaOHhBii0tLemMriKv6CHXOPBxjCN3KFfRr5sGnkTlNWcf5qT
+        +9IZSeVcIppg2e0v5sv+w/WT+nHu7h758HJWPrj0h2eGem6siaVuImEFbfgR3YZIXNQS4iSdAT/ikx1G
+        ZcZJiCUCK5/zmzAIK0Z/iVZDV7O1mkXAFiFKKL+37IsgldPE6oc4b2BYlUAsCfAkPj+yy92zDauEPDLQ
+        LX9Mev2I5EOl5bwW1q7sXIc/JAZN4OSByIv82oK9HfhM/ZIe7MvI7I6d1j7fPrdbbtaEHDve4/Ej+gnA
+        3l7B+Dtwv7P3C94TfklJANGxB7rS8thgd42PQz8BGPNczfVoKmDL+pT1u1dPS1wq8kmxz+NHjFzAoLAF
+        PC5mPX7EyAQQHXtZtsA5hLfO9spNqpDjJ3o9fkQ/AXwI34PhDmH1Z9ixWpdHQ32GYgrvAn2Gy3sRcRPy
+        S96UFSM/iyRlulY5b2BQp0TsrGJO5Uf9kgfkCDUUWol9tyeH3T1fgNyMaHI0I3HAUkMiqLEgYZDtMG3f
+        nB0M2CIENSZ3zxsQPqJkT64ovwFd7rj5bam9KQAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="kryptonButton8.Values.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

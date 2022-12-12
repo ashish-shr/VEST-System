@@ -14,12 +14,13 @@ namespace VEST
         private void timer1_Tick(object sender, EventArgs e)
         {
             panel2.Width += 3;
-            if (panel2.Width >= 286)
+            if (panel2.Width >= 256)
             {
                 timer1.Stop();
+                this.Hide();
                 Form2 f2 = new Form2();
                 f2.Show();
-                this.Hide();
+                
             }
         }
 

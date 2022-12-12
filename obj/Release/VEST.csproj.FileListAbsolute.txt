@@ -14,6 +14,7 @@ D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\bin\Release\System.Configu
 D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\bin\Release\System.Data.Odbc.xml
 D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\bin\Release\System.Data.OleDb.xml
 D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\bin\Release\System.Data.SqlClient.xml
+D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\bin\Release\System.Diagnostics.DiagnosticSource.xml
 D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\bin\Release\System.Diagnostics.EventLog.xml
 D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\bin\Release\System.Diagnostics.PerformanceCounter.xml
 D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\bin\Release\System.Drawing.Common.xml
@@ -43,6 +44,7 @@ D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\obj\Release\VEST.Propertie
 D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\obj\Release\VEST.csproj.GenerateResource.cache
 D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\obj\Release\VEST.csproj.CoreCompileInputs.cache
 D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\obj\Release\VEST.csproj.Fody.CopyLocal.cache
+D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\obj\Release\VEST.csproj.Fody.RuntimeCopyLocal.cache
 D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\obj\Release\VEST.csproj.CopyComplete
 D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\obj\Release\VEST.exe
 D:\Programming\C# with DotNet\VEST Team\VEST New\VEST\obj\Release\VEST.pdb
