@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VEST", "VEST.csproj", "{706D26CD-F541-4229-AA94-B1773566BA52}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "VEST System 4.1", "..\..\..\VEST System 4.1\VEST System 4.1\VEST System 4.1.vdproj", "{4C189F52-E124-4F77-ADA9-41258B7B9CF4}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "VEST System 4.1", "..\VEST System 4.1\VEST System 4.1.vdproj", "{A904D0FC-FECE-4C57-8876-4A50D97B1DFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{706D26CD-F541-4229-AA94-B1773566BA52}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{706D26CD-F541-4229-AA94-B1773566BA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{706D26CD-F541-4229-AA94-B1773566BA52}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4C189F52-E124-4F77-ADA9-41258B7B9CF4}.Debug|Any CPU.ActiveCfg = Release
-		{4C189F52-E124-4F77-ADA9-41258B7B9CF4}.Release|Any CPU.ActiveCfg = Release
+		{A904D0FC-FECE-4C57-8876-4A50D97B1DFD}.Debug|Any CPU.ActiveCfg = Release
+		{A904D0FC-FECE-4C57-8876-4A50D97B1DFD}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

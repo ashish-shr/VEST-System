@@ -92,7 +92,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 50);
             this.label3.TabIndex = 3;
-            this.label3.Text = "4.1";
+            this.label3.Text = "5.0";
             this.label3.UseWaitCursor = true;
             // 
             // label4
@@ -131,7 +131,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(72, 17);
             this.label6.TabIndex = 6;
-            this.label6.Text = "Version 4.1";
+            this.label6.Text = "Version 5.0";
             this.label6.UseWaitCursor = true;
             // 
             // label7

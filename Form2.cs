@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using VEST;
 
 namespace VEST_System_3._0
 {
@@ -32,17 +33,19 @@ namespace VEST_System_3._0
             InitializeComponent();
             this.FormClosing += new FormClosingEventHandler(Form1_FormClosing);
         }
+
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
+            
             if (e.CloseReason != CloseReason.UserClosing)
-
+            {
                 return;
-
+            }
 
             if (MessageBox.Show("Confirm if you want to exit.", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == System.Windows.Forms.DialogResult.No)
-                e.Cancel = true;
-
-
+            {
+                            e.Cancel = true;
+            }
         }
 
 
@@ -2775,7 +2778,17 @@ namespace VEST_System_3._0
 
         private void kryptonButton11_Click(object sender, EventArgs e)
         {
-            DialogResult res = MessageBox.Show("Acronym and Clarification: -\r\n\r\nNP: National Park\r\nWLR: Wildlife Reserve\r\nRP: Range Post\r\nFPA: Forest Protection Area\r\nCA: Conservation Area\r\nDP: Development Project\r\nDivision: Division Forest Office\r\nSub-Division: Sub-Division Forest Office\r\nM.N.: Chhapan Serial Number\r\nDBH: Diameter at Breast Height (1.3 m from ground level)\r\nUB: Under Bark\r\nOB: Over Bark\r\nCft: Cubic Feet\r\nCum: Cubic Meter\r\nX-Coordinate: Longitude\r\nY-Coordinate: Latitude\r\nWith Branch: Tree whose branch is present at the time of measurement\r\nWithout Branch: Tree which is branchless at the time of measurement\r\nGross Volume: Stem volume excluding 10 cm top diameter volume\r\n", "Acronym and Clarification", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            DialogResult res = MessageBox.Show("Acronym and Clarification: -\r\n\r\nNP: National Park\r\nWLR: Wildlife Reserve\r\nRP: Range Post\r\nFPA: Forest Protection Area\r\nCA: Conservation Area\r\nDP: Development Project\r\nAF: Avenue Forest\r\nPF: Public Forest\r\nDivision: Division Forest Office\r\nSub-Division: Sub-Division Forest Office\r\nM.N.: Chhapan Serial Number\r\nDBH: Diameter at Breast Height (1.3 m from ground level)\r\nUB: Under Bark\r\nOB: Over Bark\r\nCft: Cubic Feet\r\nCum: Cubic Meter\r\nX-Coordinate: Longitude\r\nY-Coordinate: Latitude\r\nWith Branch: Tree whose branch is present at the time of measurement\r\nWithout Branch: Tree which is branchless at the time of measurement\r\nGross Volume: Stem volume excluding 10 cm top diameter volume\r\n", "Acronym and Clarification", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void kryptonButton12_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://drive.google.com/file/d/15TnrRxLhF0UH64lWXzr0lbtVyz8vmwui/view?usp=share_link");
+        }
+
+        private void kryptonButton13_Click(object sender, EventArgs e)
+        {
+            DialogResult res = MessageBox.Show("Disclaimer: -\r\nVEST is a computer application. It stands for Volume Estimator of Standing Tree. This computer application estimates net timber and firewood volume including other volume parameters of standing trees of 23 Nepalese tree species mentioned in Forest Rule-2022 of the Government of Nepal. However, this application could estimate volumes of lodging trees too. \r\nWe, the VEST team, hereby declare that this application has not been authorized by the Government of Nepal though it facilitates the same. We are independent developers. We have made it on our effort and expenditures. We have not taken any benefits from the Government of Nepal to design, build and release this application. \r\nTherefore, We, hereby, pre-inform our users that the results calculated with this application do not necessarily represent the Government of Nepal though it works in line with Forest Rule-2022 of the government. \r\nTherefore, if any dispute takes place in the past, present, or in future, where this application was used; this application, application designer, and developer shall not be liable for any type of legal, financial, or technical loss incurred by the users due to use of this application. We shall not be responsible for those losses. You must use this application on your responsibility. Thank you! \r\nVEST Team\r\n", "Disclaimer", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
