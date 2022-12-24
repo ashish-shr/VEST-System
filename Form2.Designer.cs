@@ -170,6 +170,7 @@
             this.Column26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.kryptonHeader3 = new Krypton.Toolkit.KryptonHeader();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.kryptonButton13 = new Krypton.Toolkit.KryptonButton();
             this.kryptonButton12 = new Krypton.Toolkit.KryptonButton();
             this.kryptonButton11 = new Krypton.Toolkit.KryptonButton();
             this.kryptonButton8 = new Krypton.Toolkit.KryptonButton();
@@ -182,7 +183,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.kryptonHeader4 = new Krypton.Toolkit.KryptonHeader();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.kryptonButton13 = new Krypton.Toolkit.KryptonButton();
             this.tabControl1.SuspendLayout();
             this.tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -308,7 +308,7 @@
             // 
             this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(724, 346);
+            this.pictureBox5.Location = new System.Drawing.Point(735, 348);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(64, 64);
@@ -797,7 +797,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(724, 346);
+            this.pictureBox2.Location = new System.Drawing.Point(735, 348);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(64, 64);
@@ -1168,7 +1168,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(724, 346);
+            this.pictureBox3.Location = new System.Drawing.Point(735, 348);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(64, 64);
@@ -1560,7 +1560,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(724, 346);
+            this.pictureBox4.Location = new System.Drawing.Point(735, 348);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(64, 64);
@@ -2016,6 +2016,25 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "ABOUT";
             // 
+            // kryptonButton13
+            // 
+            this.kryptonButton13.CornerRoundingRadius = 4F;
+            this.kryptonButton13.Location = new System.Drawing.Point(623, 58);
+            this.kryptonButton13.Name = "kryptonButton13";
+            this.kryptonButton13.Size = new System.Drawing.Size(164, 47);
+            this.kryptonButton13.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.kryptonButton13.StateCommon.Border.Rounding = 4F;
+            this.kryptonButton13.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.kryptonButton13.TabIndex = 6;
+            this.kryptonButton13.ToolTipValues.Description = "";
+            this.kryptonButton13.ToolTipValues.EnableToolTips = true;
+            this.kryptonButton13.ToolTipValues.Heading = "Click here to view disclaimer.";
+            this.kryptonButton13.Values.Image = ((System.Drawing.Image)(resources.GetObject("kryptonButton13.Values.Image")));
+            this.kryptonButton13.Values.Text = "Disclaimer";
+            this.kryptonButton13.Click += new System.EventHandler(this.kryptonButton13_Click);
+            // 
             // kryptonButton12
             // 
             this.kryptonButton12.CornerRoundingRadius = 4F;
@@ -2188,25 +2207,6 @@
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // kryptonButton13
-            // 
-            this.kryptonButton13.CornerRoundingRadius = 4F;
-            this.kryptonButton13.Location = new System.Drawing.Point(623, 58);
-            this.kryptonButton13.Name = "kryptonButton13";
-            this.kryptonButton13.Size = new System.Drawing.Size(164, 47);
-            this.kryptonButton13.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonButton13.StateCommon.Border.Rounding = 4F;
-            this.kryptonButton13.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.kryptonButton13.TabIndex = 6;
-            this.kryptonButton13.ToolTipValues.Description = "";
-            this.kryptonButton13.ToolTipValues.EnableToolTips = true;
-            this.kryptonButton13.ToolTipValues.Heading = "Click here to view disclaimer.";
-            this.kryptonButton13.Values.Image = ((System.Drawing.Image)(resources.GetObject("kryptonButton13.Values.Image")));
-            this.kryptonButton13.Values.Text = "Disclaimer";
-            this.kryptonButton13.Click += new System.EventHandler(this.kryptonButton13_Click);
             // 
             // Form2
             // 

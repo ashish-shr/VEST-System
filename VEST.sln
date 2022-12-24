@@ -5,20 +5,24 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VEST", "VEST.csproj", "{706D26CD-F541-4229-AA94-B1773566BA52}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "VEST System 4.1", "..\VEST System 4.1\VEST System 4.1.vdproj", "{A904D0FC-FECE-4C57-8876-4A50D97B1DFD}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "VEST System 5.0", "..\..\..\VEST System 5.0\VEST System 5.0.vdproj", "{71FBA40F-202F-4397-A017-BDC6B8D6D443}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{706D26CD-F541-4229-AA94-B1773566BA52}.All|Any CPU.ActiveCfg = Debug|Any CPU
+		{706D26CD-F541-4229-AA94-B1773566BA52}.All|Any CPU.Build.0 = Debug|Any CPU
 		{706D26CD-F541-4229-AA94-B1773566BA52}.Debug|Any CPU.ActiveCfg = Release|Any CPU
 		{706D26CD-F541-4229-AA94-B1773566BA52}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{706D26CD-F541-4229-AA94-B1773566BA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{706D26CD-F541-4229-AA94-B1773566BA52}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A904D0FC-FECE-4C57-8876-4A50D97B1DFD}.Debug|Any CPU.ActiveCfg = Release
-		{A904D0FC-FECE-4C57-8876-4A50D97B1DFD}.Release|Any CPU.ActiveCfg = Release
+		{71FBA40F-202F-4397-A017-BDC6B8D6D443}.All|Any CPU.ActiveCfg = Debug
+		{71FBA40F-202F-4397-A017-BDC6B8D6D443}.Debug|Any CPU.ActiveCfg = Release
+		{71FBA40F-202F-4397-A017-BDC6B8D6D443}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
